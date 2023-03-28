@@ -1,7 +1,8 @@
 import sys
-
 import openai
 import sys
+
+# note: pip install urllib3==1.25.11
 
 openai.api_key = sys.argv[1]
 # model_list = openai.Model.list()
